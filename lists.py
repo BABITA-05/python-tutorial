@@ -1,0 +1,13 @@
+friends = ["Babita", "Bijaya", "Asmita", "Ankit","Eshu", "Sandip"]
+print(friends)
+print(friends[0])
+print(friends[1:3])
+friends.append("Love")
+print(friends)
+friends.insert(5, "HEHE")
+print(friends)
+friends.remove("HEHE")
+print(friends)
+print(friends.index("Babita"))
+friends.sort()
+print(friends)
